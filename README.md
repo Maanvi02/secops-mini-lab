@@ -1,46 +1,31 @@
-# 🚨 P1 Incident — Production Alert
+# 🚨 Production Alert
 
-Time:
-17:32
+You are the SecOps engineer on duty.
 
-Monitoring triggered:
-
-[CRITICAL]
-CPU reached 96%
-
-No users affected yet.
-
-You are on-call.
-
-Investigate and submit findings.
-
----
+Production triggered a suspicious access alert.
 
 ## Objectives
 
-Task 1
-Identify attacker IP
+1. Find the attacker IP.
+2. Find suspicious web activity.
+3. Find persistence.
 
-Task 2
-Find suspicious web path
+## Useful Commands
 
-Task 3
-Find suspicious command
+```bash
+grep Accepted /var/log/auth.log
 
-Task 4
-Find persistence
+cat /var/log/nginx/access.log
 
-Task 5
-Recommend remediation
+cat /etc/crontab
+```
 
----
+## Flags
 
-## Hint
+Submit:
 
-Common places:
+FLAG1{attacker_ip}
 
-/var/log
+FLAG2{suspicious_path}
 
-/home
-
-/etc
+FLAG3{persistence_method}

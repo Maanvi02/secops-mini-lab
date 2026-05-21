@@ -1,5 +1,5 @@
 {
-  "name": "SecOps Incident Lab",
+  "name": "SecOps Mini Lab",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
