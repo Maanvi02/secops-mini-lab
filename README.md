@@ -1,25 +1,46 @@
-# secops-mini-lab
-Production Login Investigation
+# 🚨 P1 Incident — Production Alert
 
-## Scenario
-Friday 5:30 PM.
-The SecOps team received an alert:
+Time:
+17:32
 
-⚠️ Unusual login activity detected on Production.
+Monitoring triggered:
 
-Users have not reported issues yet.
-We have to:
-- Determine who logged in
-- Determine what they executed
-- Determine whether persistence exists
-- Recommend remediation
+[CRITICAL]
+CPU reached 96%
 
-Try checking:
+No users affected yet.
 
-- Login logs
-- Web server logs
-- Command history
-- Cron jobs
-- Monitoring logs
+You are on-call.
 
-Good luck.
+Investigate and submit findings.
+
+---
+
+## Objectives
+
+Task 1
+Identify attacker IP
+
+Task 2
+Find suspicious web path
+
+Task 3
+Find suspicious command
+
+Task 4
+Find persistence
+
+Task 5
+Recommend remediation
+
+---
+
+## Hint
+
+Common places:
+
+/var/log
+
+/home
+
+/etc

