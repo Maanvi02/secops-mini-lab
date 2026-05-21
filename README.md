@@ -13,12 +13,13 @@ We have to:
 - Determine what they executed
 - Determine whether persistence exists
 - Recommend remediation
-Rules
 
-Allowed:
+Try checking:
 
-✅ cat  
-✅ grep  
-✅ ls  
+- Login logs
+- Web server logs
+- Command history
+- Cron jobs
+- Monitoring logs
 
-Do NOT edit evidence.
+Good luck.
